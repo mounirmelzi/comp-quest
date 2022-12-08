@@ -1,0 +1,43 @@
+.wavesTeaser {
+  position: absolute;
+  bottom: -3rem;
+  right: -5rem;
+  z-index: -1;
+}
+
+.bigCircleTeaser {
+  position: absolute;
+  top: -3rem;
+  left: -3rem;
+  z-index: -1;
+}
+
+.TriangleOneTeaser {
+  position: absolute;
+  bottom: -2.5rem;
+  left: -0.25rem;
+  transform: rotate(90deg);
+  z-index: -1;
+}
+
+.TriangleTwoTeaser {
+  position: absolute;
+  bottom: -2.5rem;
+  left: -2rem;
+  transform: rotate(90deg);
+  z-index: -1;
+}
+
+@media (max-width: 767px) {
+  .wavesTeaser {
+    width: 5rem;
+    bottom: -2rem;
+    right: -3rem;
+  }
+
+  .bigCircleTeaser {
+    width: 5rem;
+    top: -2.5rem;
+    left: -2.5rem;
+  }
+}

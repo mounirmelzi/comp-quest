@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* importing fonts */
+@font-face {
+  font-family: Aquire;
+  src: url(./assets/fonts/Aquire.otf);
+}
+@font-face {
+  font-family: AquireBold;
+  src: url(./assets/fonts/AquireBold.otf);
+}
+@font-face {
+  font-family: AquireLight;
+  src: url(./assets/fonts/AquireLight.otf);
+}
+@font-face {
+  font-family: DaysOne;
+  src: url(./assets/fonts/DaysOne.ttf);
+}
+@font-face {
+  font-family: EvilEmpire;
+  src: url(./assets/fonts/EvilEmpire.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+body {
+  background-color: #0b1135;
+}
